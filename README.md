@@ -117,29 +117,29 @@
 ## 运行图示
 
 #### 首页
-<img src="img/index_1.png">
+<img src="./src/img/index_1.png">
 
-<img src="img/index_2.png">
+<img src="./src/img/index_2.png">
 
-<img src="img/index_3.png">
+<img src="./src/img/index_3.png">
 
-<img src="img/index_4.png">
+<img src="./src/img/index_4.png">
 
-<img src="img/index_5.png">
+<img src="./src/img/index_5.png">
 
-<img src="img/index_6.png">
+<img src="./src/img/index_6.png">
 
 #### 列表页
-<img src="img/list_1.png">
+<img src="./src/img/list_1.png">
 
 #### 详情页
-<img src="img/detail_1.png">
+<img src="./src/img/detail_1.png">
 
-<img src="img/detail_2.png">
+<img src="./src/img/detail_2.png">
 
 #### 登录页
-<img src="img/login.png">
+<img src="./src/img/login.png">
 
 #### 注册页
-<img src="img/register.png">
+<img src="./src/img/register.png">
 
