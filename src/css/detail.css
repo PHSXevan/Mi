@@ -1,0 +1,263 @@
+.nav-bar {
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.07);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-bar .container {
+    overflow: hidden;
+}
+
+.nav-bar h2 {
+    font-weight: 400;
+    float: left;
+    line-height: 60px;
+}
+
+.nav-bar .float-left {
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+.nav-bar .float-right {
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+.product-box {
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+
+.product-box .container {
+    display: flex;
+}
+
+
+.box {
+    width: 450px;
+    height: 600px;
+    border: 1px solid #b0b0b0;
+    margin: 50px 50px 50px 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.box>.show {
+    width: 100%;
+    height: 450px;
+    border-bottom: 1px solid #b0b0b0;
+    position: relative;
+    cursor: none;
+}
+
+.box>.show>img {
+    width: 100%;
+    height: 450px;
+}
+
+.box>.show>.mask {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    pointer-events: none;
+    display: none;
+}
+
+.box>.list {
+    flex: 1;
+    box-sizing: border-box;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.box>.list>p {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #b0b0b0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.box>.list>p>img {
+    width: 80px;
+    height: 80px;
+}
+
+.box>.list>p.active {
+    border-color: orange;
+}
+
+.box>.enlarge {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 110%;
+    top: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 800px 800px;
+    display: none;
+    z-index: 2;
+}
+
+.product-con {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.product-con h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.product-con .desc {
+    color: #b0b0b0;
+    margin-top: 10px;
+    padding-top: 8px;
+    line-height: 1.5;
+}
+
+.product-con .self-support {
+    color: #ff6700;
+    margin-top: 14px;
+}
+
+.product-con .price-info {
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+    color: #ff6700;
+    padding: 12px 0 10px;
+}
+
+.product-con .price-info del {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #b0b0b0;
+}
+
+.line {
+    border: 1px solid #e0e0e0;
+    margin-top: 10px;
+}
+
+.product-con .product-address {
+    padding: 30px 50px;
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+.product-address i {
+    position: absolute;
+    left: 20px;
+    top: 26px;
+    font-size: 20px;
+    color: #999;
+}
+
+.product-address span {
+    margin-right: 14px;
+}
+
+.product-address a {
+    color: #ff6700;
+}
+
+.product-address .desc {
+    color: #ff6700;
+}
+
+.product-con .option-box {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.option-box .title {
+    line-height: 30px;
+    font-size: 20px;
+    color: #333;
+}
+
+.product-con .option-box li{
+    margin-right: 12px;
+    margin-top: 10px;
+    line-height: 42px;
+    height: 42px;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    list-style: none;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    float: left;
+    width: 292px;
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+}
+
+.product-con .option-box li.active {
+    color: #ff6700;
+    border: 1px solid #ff6700;
+}
+
+.product-con .selected-list {
+    background: #f9f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.selected-list li {
+    list-style: none;
+    line-height: 30px;
+    color: #616161;
+}
+
+.selected-list li span {
+    float: right;
+}
+
+.selected-list .total-price {
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.product-con .btn-box {
+    margin-top: 20px;
+}
+
+.btn-box a {
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}

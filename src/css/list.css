@@ -1,0 +1,94 @@
+.header-nav .navli {
+    display: none;background: #fff;border: 1px solid #ff6700;color: #333;
+} 
+
+.navli>li:hover {
+    background: #fff;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.main .components-list-box {
+    width: 1226px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.product-cell {
+    width: 606px;
+    position: relative;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.15);
+    float: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-cell img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    /* height: 358px; */
+}
+
+.product-cell .title {
+    line-height: 26px;
+    margin: 38px 0 0 48px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.product-cell .desc {
+    line-height: 18px;
+    margin: 3px 0 0 48px;
+    color: #333;
+    color: rgba(51,51,51,.7);
+    font-size: 14px;
+}
+
+.product-cell .price {
+    line-height: 30px;
+    color: #ff6700;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    right: 48px;
+    bottom: 30px;
+    margin: 0;
+}
+
+.product-cell .price strong {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.product-cell .price span {
+    line-height: 30px;
+    color: #ff6700;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sort {
+    /* width: 100px;
+    height: 30px; */
+    position: fixed;
+    top: 350px;
+    right: 0;
+    border: 3px solid #ff6700;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.15);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.sort button {
+    cursor: pointer;
+    width: 15px;
+}
